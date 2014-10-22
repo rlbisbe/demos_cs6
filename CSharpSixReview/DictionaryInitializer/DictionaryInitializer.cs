@@ -6,15 +6,25 @@ namespace CSharpSixReview.DictionaryInitializer
     {
         public void Initialize5()
         {
-            Dictionary<string, int> scores = new Dictionary<string, int>();
+            var scores = new Dictionary<string, int>();
             scores["Reading"] = 10;
             scores["Writing"] = 6;
             scores["Use of english"] = 7;
         }
 
+        public void Initialize5b()
+        {
+            var scores = new Dictionary<string, int>()
+            {
+                {"Reading", 10 },
+                {"Writing", 6 },
+                {"Use of english", 7 }
+            };
+        }
+
         public void Initialize6()
         {
-            Dictionary<string, int> scores = new Dictionary<string, int>()
+            var scores = new Dictionary<string, int>()
             {
                 ["Reading"] = 10,
                 ["Writing"] = 6,

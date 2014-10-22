@@ -6,5 +6,6 @@ namespace CSharpSixReview
     {
         public int MyProperty { get; set; } = 12;
         public List<string> MyArray { get; set; } = new List<string>();
+        public int MyReadOnlyProperty { get; } = 42;
     }
 }

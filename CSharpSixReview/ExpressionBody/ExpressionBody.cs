@@ -16,12 +16,14 @@
 
         public string Description6 => string.Format("Base:{0}, Height:{1}", X, Y);
 
-        //Methods
-        public int Area5 => X * Y;
-
-        public int Area6()
+        public int Area5()
         {
             return X * Y;
         }
+
+        //Methods
+        public int Area6() => X * Y;
+
+
     }
 }

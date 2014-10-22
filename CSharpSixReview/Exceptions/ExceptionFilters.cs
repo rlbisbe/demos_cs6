@@ -34,6 +34,10 @@ namespace CSharpSixReview.Exceptions
             {
                 System.Console.WriteLine("Deal with Precondition failed");
             }
+            catch (HttpException ex)
+            {
+                System.Console.WriteLine("Deal with other Http error codes");
+            }
         }
     }
 }
